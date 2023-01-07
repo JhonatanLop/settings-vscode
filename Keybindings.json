@@ -1,0 +1,8 @@
+[
+  {
+    // Atalho para recarregar o code limpando o cache
+    "key": "ctrl+f5",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorTextFocus"
+  }
+]
