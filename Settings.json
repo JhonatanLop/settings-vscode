@@ -1,0 +1,55 @@
+{
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.fontSize": 15,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.pdf": "default"
+    },
+
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.autoIndent": "none",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.colorDecorators": true,
+    "editor.accessibilitySupport": "on",
+    "workbench.iconTheme": "file-icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.linkedEditing": true,
+
+    // Settings para html
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.autoIndent": "full",
+        // "editor.codeLens": true
+
+    // Settings para css
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.autoIndent": "full"
+    // Settings para markdown
+    },
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.codeLens": true
+    // Settings para json
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.autoIndent": "full"
+    }
+        
+}
