@@ -9,7 +9,9 @@ Minhas configurações do vscode no arquivo Settings.json
     "editor.fontSize": 15,
     "explorer.confirmDragAndDrop": false,
     "workbench.editorAssociations": {
-        "*.pdf": "default"
+        "*.pdf": "default",
+        "*.jar": "default",
+        "*.fxml": "default"
     },
     "editor.multiCursorModifier": "ctrlCmd",
     "window.autoDetectColorScheme": true,
@@ -34,7 +36,8 @@ Minhas configurações do vscode no arquivo Settings.json
     },
     "[css]": {
         "editor.suggest.insertMode": "replace",
-        "editor.autoIndent": "full"
+        "editor.autoIndent": "full",
+        "editor.defaultFormatter": "vscode.css-language-features"
         // Settings para markdown
     },
     "[markdown]": {
@@ -90,12 +93,17 @@ Minhas configurações do vscode no arquivo Settings.json
 
     // configurando background do vscode
     "background.fullscreen": {
-        "image": "https://w.wallhaven.cc/full/lm/wallhaven-lmqxxl.jpg", // url of your image
+        // "image": "https://w.wallhaven.cc/full/lm/wallhaven-lmqxxl.jpg",
+        "image": "https://wallpapercave.com/wp/wp6192910.jpg",
+        // "image": "https://w.wallhaven.cc/full/kw/wallhaven-kwolrd.jpg",
+        // "image": "https://i.gifer.com/KNiu.gif",
         // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
         "opacity": 0.91, // 0.85 ~ 0.95 recommended
         "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
         "position": "center", // alias to `background-position`, default `center`
         "interval": 0 // seconds of interval for carousel, default `0` to disabled.
-    }
+    },
+    "workbench.statusBar.visible": false,
+    "git.openRepositoryInParentFolders": "always",
+    "aws.codeWhisperer.includeSuggestionsWithCodeReferences": true
 }
-```
