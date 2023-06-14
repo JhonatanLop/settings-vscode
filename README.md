@@ -94,10 +94,11 @@ Minhas configurações do vscode no arquivo Settings.json
     // configurando background do vscode
     "background.fullscreen": {
         // "image": "https://w.wallhaven.cc/full/lm/wallhaven-lmqxxl.jpg",
-        "image": "https://wallpapercave.com/wp/wp6192910.jpg",
+        // "image": "https://wallpapercave.com/wp/wp6192910.jpg",
         // "image": "https://w.wallhaven.cc/full/kw/wallhaven-kwolrd.jpg",
         // "image": "https://i.gifer.com/KNiu.gif",
         // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
+        "image": "https://img.freepik.com/fotos-premium/um-gato-bebendo-uisque-ao-lado-de-um-copo-de-alcool_250469-19501.jpg?w=2000", // gato & whisky
         "opacity": 0.91, // 0.85 ~ 0.95 recommended
         "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
         "position": "center", // alias to `background-position`, default `center`
