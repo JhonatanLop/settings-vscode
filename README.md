@@ -3,108 +3,200 @@ Minhas configurações do vscode no arquivo Settings.json
 
 ```json
 {
-    "git.suggestSmartCommit": false,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "editor.fontSize": 15,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.editorAssociations": {
-        "*.pdf": "default",
-        "*.jar": "default",
-        "*.fxml": "default"
-    },
-    "editor.multiCursorModifier": "ctrlCmd",
-    "window.autoDetectColorScheme": true,
-    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.colorDecorators": true,
-    "editor.accessibilitySupport": "off",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
-    "editor.linkedEditing": true,
-    "workbench.editor.closeEmptyGroups": true,
-
-    "python.defaultInterpreterPath": "C:\\Users\\jhool\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
     "redhat.telemetry.enabled": true,
-
-    // Settings para html
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.autoIndent": "full"
-        // "editor.codeLens": true
-        // Settings para css
-    },
-    "[css]": {
-        "editor.suggest.insertMode": "replace",
-        "editor.autoIndent": "full",
-        "editor.defaultFormatter": "vscode.css-language-features"
-        // Settings para markdown
-    },
-    "[markdown]": {
-        "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.unicodeHighlight.invisibleCharacters": false,
-        "editor.wordWrap": "off",
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
-        "editor.codeLens": true
-        // Settings para json
+    "editor.multiCursorLimit": 100000,
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
     },
     "[json]": {
         "editor.quickSuggestions": {
             "strings": true
         },
         "editor.suggest.insertMode": "replace",
-        "editor.autoIndent": "full",
+        "editor.defaultFormatter": "vscode.json-language-features",
     },
-    "material-icon-theme.folders.theme": "specific",
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+    "markdownlint.config": {
+        "default": true,
+        "MD022": false,
+        "MD025": false,
+        "MD032": false,
+        "MD026": false,
+        "MD047": false,
+        "MD041": false,
+        "MD024": false,
+        "MD001": false,
+        "MD033": false,
+        "MD023": false,
+        "MD003": false,
+        "no-hard-tabs": false
     },
     "[python]": {
         "editor.formatOnType": true
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[java]": {
-        "editor.suggest.snippetsPreventQuickSuggestions": true,
-        "editor.autoIndent": "full",
-    },
+    "explorer.confirmDragAndDrop": false,
 
-    // configurando extenção sqltools
-    "sqltools.connections": [],
-    // configurando extensão markdownlint
-    "markdownlint.config": {
-        "default": true,
-        "MD007": {
-            "indent": 4
-        },
-        "no-hard-tabs": false,
-        "MD033": false,
-        "MD003": false,
-        "MD025": false,
-        "MD032": false,
-        "MD022": false,
-        "MD036": false
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#00000000",
     },
+    "[oraclesql]": {
 
-    // configurando background do vscode
-    "background.fullscreen": {
-        // "image": "https://w.wallhaven.cc/full/lm/wallhaven-lmqxxl.jpg",
-        // "image": "https://wallpapercave.com/wp/wp6192910.jpg",
-        // "image": "https://w.wallhaven.cc/full/kw/wallhaven-kwolrd.jpg",
-        // "image": "https://i.gifer.com/KNiu.gif",
-        // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
-        "image": "https://img.freepik.com/fotos-premium/um-gato-bebendo-uisque-ao-lado-de-um-copo-de-alcool_250469-19501.jpg?w=2000", // gato & whisky
-        "opacity": 0.91, // 0.85 ~ 0.95 recommended
-        "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
-        "position": "center", // alias to `background-position`, default `center`
-        "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+        "editor.suggest.showSnippets": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
     },
-    "workbench.statusBar.visible": false,
+    "files.associations": {
+        "*.sql": "sql"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "git.openRepositoryInParentFolders": "always",
-    "aws.codeWhisperer.includeSuggestionsWithCodeReferences": true
+    "sqltools.useNodeRuntime": false,
+    "git.autofetch": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "pt"
+    },
+    "sqltools.disableNodeDetectNotifications": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 20,
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.includeEmptyLines": false,
+    "java.import.gradle.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+        }
+    ],
+    "terminal.integrated.profiles.linux": {
+        "JavaSE-1.8": {
+            "overrideName": true,
+            "env": {
+                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "~/.bashrc_jdkauto"
+            ]
+        },
+        "JavaSE-11": {
+            "overrideName": true,
+            "env": {
+                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "~/.bashrc_jdkauto"
+            ]
+        },
+        "JavaSE-17": {
+            "overrideName": true,
+            "env": {
+                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "~/.bashrc_jdkauto"
+            ]
+        }
+    },
+    "debug.onTaskErrors": "debugAnyway",
+    "java.jdt.ls.java.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    "spring-boot.ls.java.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+            "default": true
+        }
+    ],
+    "background.editorBackgrounds": [
+        "/home/jhonatan/Imagens/1334088.png",
+        "/home/jhonatan/Imagens/your_name.png"
+    ],
+    "background.sidebarBackgrounds": [
+        "/home/jhonatan/Imagens/d.jpg"
+    ],
+    "background.panelBackgrounds": [
+        "/home/jhonatan/Imagens/f.jpg"
+    ],
+    "background.backgroundAlignment": [
+        "Center Center",
+        "Center Center",
+        "Center Center",
+        "Center Center"
+    ],
+    "background.backgroundSize": [
+        "Cover",
+        "Cover",
+        "Cover",
+        "Cover"
+    ],
+    "background.backgroundOpacity": [
+        1,
+        0.8,
+        0.8,
+        0.8
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }
