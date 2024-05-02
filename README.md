@@ -8,7 +8,7 @@ Minhas configurações do vscode no arquivo Settings.json
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
     "[xml]": {
-        "editor.defaultFormatter": "redhat.vscode-xml"
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
     },
     "redhat.telemetry.enabled": true,
     "editor.multiCursorLimit": 100000,
@@ -22,31 +22,14 @@ Minhas configurações do vscode no arquivo Settings.json
         "editor.suggest.insertMode": "replace",
         "editor.defaultFormatter": "vscode.json-language-features",
     },
-    "markdownlint.config": {
-        "default": true,
-        "MD022": false,
-        "MD025": false,
-        "MD032": false,
-        "MD026": false,
-        "MD047": false,
-        "MD041": false,
-        "MD024": false,
-        "MD001": false,
-        "MD033": false,
-        "MD023": false,
-        "MD003": false,
-        "no-hard-tabs": false
-    },
     "[python]": {
         "editor.formatOnType": true
     },
-    "explorer.confirmDragAndDrop": false,
-
+    "security.workspace.trust.untrustedFiles": "open",
     "workbench.colorCustomizations": {
         "editorWarning.foreground": "#00000000",
     },
     "[oraclesql]": {
-
         "editor.suggest.showSnippets": true,
         "editor.quickSuggestions": {
             "comments": "on",
@@ -61,142 +44,28 @@ Minhas configurações do vscode no arquivo Settings.json
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "git.openRepositoryInParentFolders": "always",
-    "sqltools.useNodeRuntime": false,
     "git.autofetch": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "editor.linkedEditing": true,
-    "editor.minimap.enabled": false,
-    "editor.rulers": [
-        {
-            "column": 80,
-            "color": "#00FF0010"
-        },
-        {
-            "column": 100,
-            "color": "#BDB76B15"
-        },
-        {
-            "column": 120,
-            "color": "#FA807219"
-        }
-    ],
-    "editor.unicodeHighlight.includeComments": true,
-    "emmet.variables": {
-        "lang": "pt"
-    },
-    "sqltools.disableNodeDetectNotifications": true,
-    "workbench.editor.revealIfOpen": true,
-    "workbench.tree.indent": 20,
-    "[bat]": {
-        "files.eol": "\r\n"
-    },
-    "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.tabs.hideCondition": "never",
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "java.debug.settings.hotCodeReplace": "auto",
-    "java.sources.organizeImports.staticStarThreshold": 1,
-    "cSpell.diagnosticLevel": "Hint",
-    "trailing-spaces.includeEmptyLines": false,
-    "java.import.gradle.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
-    "maven.terminal.customEnv": [
-        {
-            "environmentVariable": "JAVA_HOME",
-            "value": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
-        }
-    ],
-    "terminal.integrated.profiles.linux": {
-        "JavaSE-1.8": {
-            "overrideName": true,
-            "env": {
-                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
-                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
-            },
-            "path": "bash",
-            "args": [
-                "--rcfile",
-                "~/.bashrc_jdkauto"
-            ]
-        },
-        "JavaSE-11": {
-            "overrideName": true,
-            "env": {
-                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
-                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
-            },
-            "path": "bash",
-            "args": [
-                "--rcfile",
-                "~/.bashrc_jdkauto"
-            ]
-        },
-        "JavaSE-17": {
-            "overrideName": true,
-            "env": {
-                "PATH": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17/bin:/usr/bin:/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
-                "JAVA_HOME": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
-            },
-            "path": "bash",
-            "args": [
-                "--rcfile",
-                "~/.bashrc_jdkauto"
-            ]
-        }
-    },
-    "debug.onTaskErrors": "debugAnyway",
-    "java.jdt.ls.java.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
-    "spring-boot.ls.java.home": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
-    "java.configuration.runtimes": [
-        {
-            "name": "JavaSE-1.8",
-            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
-        },
-        {
-            "name": "JavaSE-11",
-            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
-        },
-        {
-            "name": "JavaSE-17",
-            "path": "/home/jhonatan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
-            "default": true
-        }
-    ],
-    "background.editorBackgrounds": [
-        "/home/jhonatan/Imagens/1334088.png",
-        "/home/jhonatan/Imagens/your_name.png"
-    ],
-    "background.sidebarBackgrounds": [
-        "/home/jhonatan/Imagens/d.jpg"
-    ],
-    "background.panelBackgrounds": [
-        "/home/jhonatan/Imagens/f.jpg"
-    ],
-    "background.backgroundAlignment": [
-        "Center Center",
-        "Center Center",
-        "Center Center",
-        "Center Center"
-    ],
-    "background.backgroundSize": [
-        "Cover",
-        "Cover",
-        "Cover",
-        "Cover"
-    ],
-    "background.backgroundOpacity": [
-        1,
-        0.8,
-        0.8,
-        0.8
-    ],
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "terminal.integrated.fontSize": 12,
+    "javascript.preferGoToSourceDefinition": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.dragAndDrop": false,
+    "editor.dropIntoEditor.enabled": false,
+    "editor.pasteAs.enabled": false,
+    "markdown.editor.filePaste.enabled": false,
+    "workbench.editor.splitOnDragAndDrop": false,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "cmake.configureOnOpen": false,
+    "cmake.options.statusBarVisibility": "visible",
+    "git.confirmSync": false,
 }
